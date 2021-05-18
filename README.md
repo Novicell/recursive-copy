@@ -132,6 +132,7 @@ Recursively copy files and folders from `src` to `dest`
 | `options.concurrency` | `number` | No | `255` | Maximum number of simultaneous copy operations |
 | `options.debug` | `boolean` | No | `false` | Whether to log debug information |
 | `callback` | `function` | No | `null` | Callback, invoked on success/failure |
+| `skipIfExists` | `boolean` | No | `false` | Whether to skip file if it exist without erroring |
 
 
 #### Returns:

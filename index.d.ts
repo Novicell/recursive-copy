@@ -47,9 +47,9 @@ interface Options {
 	 */
 	debug?: boolean;
 	/**
-	 * Whether to skip file if it exist without errroing
+	 * Whether to skip file if it exist without erroring
 	 */
-	skipIfExist?: boolean;
+	skipIfExists?: boolean;
 }
 
 interface CopyFn {
