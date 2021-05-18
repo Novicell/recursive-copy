@@ -46,6 +46,10 @@ interface Options {
 	 * Whether to log debug information.
 	 */
 	debug?: boolean;
+	/**
+	 * Whether to skip file if it exist without errroing
+	 */
+	skipIfExist?: boolean;
 }
 
 interface CopyFn {
